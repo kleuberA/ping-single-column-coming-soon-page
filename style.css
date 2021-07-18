@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container {
+	height: 100vh;
+	width: 100%;
+}
+.containerPing {
+	text-align: center;
+	position: relative;
+	top: 2vw;
+}
+.dashboard {
+	background: url(images/illustration-dashboard.png);
+	width: 49%;
+	height: 62vh;
+	background-size: 49vw;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+input::placeholder{
+	color: hsl(223, 100%, 88%);
+}
+.msgErro{
+	color: hsl(354, 100%, 66%);
+	font-size: 14px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
+	width: 20%;
+	margin: auto;
+	position: relative;
+	right: 12.5vh;
+}
+.title {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
+	color: hsl(0, 0%, 59%);
+}
+.title span{
+	color: hsl(209, 33%, 12%);
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+}
+.descrition{
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
+	color: hsl(209, 33%, 12%);
+	font-size: 20px;
+}
+.emailAddress{
+	width: 17vw;
+	padding: 0 2vh;
+	border-radius: 3vh;
+	outline: none;
+	border: 1px solid hsl(223, 100%, 88%);
+	height: 5vh;
+}
+.notify{
+	width: 8vw;
+	height: 5vh;
+	border-radius: 3vh;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background: hsl(223, 87%, 63%);
+}
+.iconsStyle{
+	border: 1px solid hsl(0, 0%, 59%);
+	padding: 1vh;
+	border-radius: 50%;
+	cursor: pointer;
+	fill: cornflowerblue;
+}
+.iconsStyle:hover{
+	background: hsl(223, 87%, 63%);
+	border: none;
+	fill: white;
+	filter: drop-shadow(2px 4px 6px black);
+}
+.icons{
+	display: flex;
+	text-align: center;
+	width: 10%;
+	margin: auto;
+	align-items: center;
+	padding: 2vh 0;
+}
+.iconsList{
+	text-align: center;
+	justify-content: stretch;
+	display: flex;
+	list-style: none;
+}
+.iconsItens{
+	margin-right: 2vh;
+	text-align: center;
+	justify-content: center;
+}
+@media (max-width: 375px){
+	.container {
+		height: 100vh;
+		width: 100%;
+	}
+	.containerPing {
+		text-align: center;
+		position: relative;
+		top: 6vw;
+	}
+	.dashboard {
+		background: url(images/illustration-dashboard.png);
+		width: 96%;
+		height: 39vh;
+		background-size: 96vw;
+		background-repeat: no-repeat;
+		margin: auto;
+	}
+	input::placeholder{
+		color: hsl(223, 100%, 88%);
+	}
+	.msgErro{
+		color: hsl(354, 100%, 66%);
+		font-size: 14px;
+		font-family: 'Libre Franklin', sans-serif;
+		font-weight: 300;
+		width: 60%;
+		margin: auto;
+		position: relative;
+		right: 10.5vh;
+	}
+	.title {
+		font-family: 'Libre Franklin', sans-serif;
+		font-weight: 300;
+		color: hsl(0, 0%, 59%);
+		font-size: 25px;
+		padding: 1vh 0;
+	}
+	.title span{
+		color: hsl(209, 33%, 12%);
+		font-family: 'Libre Franklin', sans-serif;
+		font-weight: 700;
+	}
+	.descrition{
+		font-family: 'Libre Franklin', sans-serif;
+		font-weight: 300;
+		color: hsl(209, 33%, 12%);
+		font-size: 17px;
+		padding: 1vh 0;
+	}
+	.emailAddress{
+		width: 80vw;
+		padding: 0 2vh;
+		border-radius: 4vh;
+		outline: none;
+		border: 1px solid hsl(223, 100%, 88%);
+		height: 7vh;
+		margin: 2vh auto;
+		justify-content: center;
+	}
+	.notify{
+		width: 87vw;
+		height: 7vh;
+		border-radius: 4vh;
+		border: none;
+		color: white;
+		cursor: pointer;
+		background: hsl(223, 87%, 63%);
+		padding: 0 2vh;
+		margin: 0 0 2vh 0;
+	}
+	.iconsStyle{
+		border: 1px solid hsl(0, 0%, 59%);
+		padding: 1vh;
+		border-radius: 50%;
+		cursor: pointer;
+		fill: cornflowerblue;
+	}
+	.iconsStyle:hover{
+		background: hsl(223, 87%, 63%);
+		border: none;
+		fill: white;
+		filter: drop-shadow(2px 4px 6px black);
+	}
+	.icons{
+		display: flex;
+		text-align: center;
+		width: 32%;
+		margin: auto;
+		align-items: center;
+		padding: 2vh 0;
+	}
+	.iconsList{
+		text-align: center;
+		justify-content: stretch;
+		display: flex;
+		list-style: none;
+	}
+	.iconsItens{
+		margin-right: 2vh;
+		text-align: center;
+		justify-content: center;
+	}
+}
